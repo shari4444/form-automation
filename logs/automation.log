@@ -1,0 +1,557 @@
+2026-10-26 23:58:37,625 [WARNING] No --referral-code provided! Using default placeholder 'GDG-CLD-BOM'.
+2026-10-26 23:58:37,931 [INFO] Loaded 245 pending participants from Google Cloud Learn with Communities - Participant Enrolment Form (Responses).xlsx.
+2026-10-26 23:58:37,932 [INFO] Starting submission for 1 participant(s) (limit=1)...
+2026-10-26 23:58:41,799 [INFO] [1/1] Processing Row 2: Vighnesh Kamlesh Sawant (vighneshsawant031207@gmail.com)
+2026-10-26 23:58:41,799 [INFO] DRY RUN: Loading and filling form, skipping submit...
+2026-10-26 23:59:16,535 [ERROR] FAILED for Vighnesh Kamlesh Sawant (Row 2): Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name=\"entry.1497929622\"]")
+    - locator resolved to <input value="" type="hidden" name="entry.1497929622"/>
+    - fill("vighneshsawant031207@gmail.com")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+2026-10-26 23:59:16,868 [INFO] Saved error screenshot to logs\screenshots\error_row_2.png
+2026-10-26 23:59:17,791 [INFO] Run completed: 0 succeeded, 1 failed.
+2026-10-27 00:12:31,551 [INFO] Opening Google Form in browser for manual Google Sign-in...
+2026-10-27 00:12:34,809 [INFO] Please sign into your Google Account in the browser window.
+2026-10-27 00:12:34,811 [INFO] Once signed in and the form is visible, press Enter in the terminal to finish setup.
+2026-10-27 00:15:28,672 [INFO] Session saved to 'browser_session/'! You can now run form submissions.
+2026-10-27 00:15:44,307 [INFO] Loaded 245 pending participant(s) from Excel.
+2026-10-27 00:15:44,308 [INFO] [1/1] Processing Row 2: Vighnesh Kamlesh Sawant (vighneshsawant031207@gmail.com)
+2026-10-27 00:15:49,366 [INFO] Filling Page 1: Email -> vighneshsawant031207@gmail.com
+2026-10-27 00:15:50,534 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:15:52,935 [INFO] Filling Page 3: Name=Vighnesh Kamlesh Sawant, Gender=Male, Category=Student
+2026-10-27 00:15:54,448 [ERROR] Error submitting row 2 (Vighnesh Kamlesh Sawant): Locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type=\"text\"]").first
+
+2026-10-27 00:15:54,890 [INFO] Completed run: 0 succeeded, 1 failed.
+2026-10-27 00:17:40,469 [INFO] Loaded 245 pending participant(s) from Excel.
+2026-10-27 00:17:40,470 [INFO] [1/1] Processing Row 2: Vighnesh Kamlesh Sawant (vighneshsawant031207@gmail.com)
+2026-10-27 00:17:44,113 [INFO] Filling Page 1: Email -> vighneshsawant031207@gmail.com
+2026-10-27 00:17:46,297 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:17:48,800 [INFO] Filling Page 3: Name=Vighnesh Kamlesh Sawant, Gender=Male, Category=Student
+2026-10-27 00:17:52,072 [ERROR] Error submitting row 2 (Vighnesh Kamlesh Sawant): Locator.click: Error: strict mode violation: locator("div[role=\"option\"]:has-text(\"Male\")") resolved to 2 elements:
+    1) <div jsaction="" role="option" tabindex="-1" jsname="wQNmvb" data-value="Male" aria-selected="false" class="MocG8c HZ3kWc mhLiyf OIC90c LMgvRb">…</div> aka get_by_role("option", name="Male", exact=True)
+    2) <div jsaction="" role="option" tabindex="-1" jsname="wQNmvb" data-value="Female" aria-selected="false" class="MocG8c HZ3kWc mhLiyf OIC90c LMgvRb">…</div> aka get_by_role("option", name="Female")
+
+Call log:
+  - waiting for locator("div[role=\"option\"]:has-text(\"Male\")")
+
+2026-10-27 00:17:53,148 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_2.png
+2026-10-27 00:17:57,390 [INFO] Completed run: 0 succeeded, 1 failed.
+2026-10-27 00:22:31,693 [INFO] Loaded 245 pending participant(s) from Excel.
+2026-10-27 00:22:31,694 [INFO] [1/1] Processing Row 2: Vighnesh Kamlesh Sawant (vighneshsawant031207@gmail.com)
+2026-10-27 00:22:37,447 [INFO] Filling Page 1: Email -> vighneshsawant031207@gmail.com
+2026-10-27 00:22:39,585 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:22:41,307 [INFO] Filling Page 3: Name=Vighnesh Kamlesh Sawant, Gender=Male, Category=Student
+2026-10-27 00:23:12,674 [ERROR] Error submitting row 2 (Vighnesh Kamlesh Sawant): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text("Student")
+    - locator resolved to <span jsslot="" class="vRMGwf oJeWuf">Student</span>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="geS5n" jsname="WsjYwc" jscontroller="sWGJ4b" jsaction="EEvAHc:yfX9oc;">…</div> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <span jsslot="" class="vRMGwf oJeWuf">Choose</span> from <div jsaction="" tabindex="0" data-value="" role="option" jsname="wQNmvb" aria-selected="true" class="MocG8c HZ3kWc mhLiyf LMgvRb KKjvXb DEh1R">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="ry3kXd" jsname="d9BH4c" role="presentation">…</div> intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="geS5n" jsname="WsjYwc" jscontroller="sWGJ4b" jsaction="EEvAHc:yfX9oc;">…</div> intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <span jsslot="" class="vRMGwf oJeWuf">Choose</span> from <div jsaction="" tabindex="0" data-value="" role="option" jsname="wQNmvb" aria-selected="true" class="MocG8c HZ3kWc mhLiyf LMgvRb KKjvXb DEh1R">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="ry3kXd" jsname="d9BH4c" role="presentation">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="geS5n" jsname="WsjYwc" jscontroller="sWGJ4b" jsaction="EEvAHc:yfX9oc;">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="geS5n" jsname="WsjYwc" jscontroller="sWGJ4b" jsaction="EEvAHc:yfX9oc;">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2026-10-27 00:23:13,005 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_2.png
+2026-10-27 00:23:13,942 [INFO] Completed run: 0 succeeded, 1 failed.
+2026-10-27 00:25:18,927 [INFO] Loaded 245 pending participant(s) from Excel.
+2026-10-27 00:25:18,927 [INFO] [1/1] Processing Row 2: Vighnesh Kamlesh Sawant (vighneshsawant031207@gmail.com)
+2026-10-27 00:25:22,543 [INFO] Filling Page 1: Email -> vighneshsawant031207@gmail.com
+2026-10-27 00:25:25,410 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:25:28,342 [INFO] Filling Page 3: Name=Vighnesh Kamlesh Sawant, Gender=Male, Category=Student
+2026-10-27 00:25:31,103 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:25:33,219 [INFO] Filling Page 5: Skills Email=codylogic59@gmail.com
+2026-10-27 00:25:34,448 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/7e06dafb-7bf1-4417-8ca4-aade2c814c7e
+2026-10-27 00:25:35,689 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:25:36,956 [INFO] SUCCESS: Form submitted for Vighnesh Kamlesh Sawant!
+2026-10-27 00:25:37,275 [INFO] Excel updated: row 2 (Column B = True).
+2026-10-27 00:25:39,996 [INFO] Completed run: 1 succeeded, 0 failed.
+2026-10-27 00:28:09,328 [INFO] Loaded 244 pending participant(s) from Excel.
+2026-10-27 00:28:09,330 [INFO] [1/1] Processing Row 3: Shubham Vinayak Jadhav (svj190906@gmail.com)
+2026-10-27 00:28:22,519 [INFO] Filling Page 1: Email -> svj190906@gmail.com
+2026-10-27 00:28:23,773 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:28:26,473 [INFO] Filling Page 3: Name=Shubham Vinayak Jadhav, Gender=Male, Category=Student
+2026-10-27 00:28:56,495 [ERROR] Error submitting row 3 (Shubham Vinayak Jadhav): Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"text\"]").first
+
+2026-10-27 00:28:56,742 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_3.png
+2026-10-27 00:28:57,684 [INFO] Completed run: 0 succeeded, 1 failed.
+2026-10-27 00:29:14,216 [INFO] Loaded 244 pending participant(s) from Excel.
+2026-10-27 00:29:14,216 [INFO] [1/1] Processing Row 3: Shubham Vinayak Jadhav (svj190906@gmail.com)
+2026-10-27 00:29:19,020 [INFO] Filling Page 1: Email -> svj190906@gmail.com
+2026-10-27 00:29:21,955 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:29:23,118 [INFO] Filling Page 3: Name=Shubham Vinayak Jadhav, Gender=Male, Category=Student
+2026-10-27 00:29:28,355 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:29:29,296 [ERROR] Error submitting row 3 (Shubham Vinayak Jadhav): Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_text("Yes", exact=True)
+
+2026-10-27 00:29:29,849 [INFO] Completed run: 0 succeeded, 1 failed.
+2026-10-27 00:30:01,648 [INFO] Loaded 244 pending participant(s) from Excel.
+2026-10-27 00:30:01,649 [INFO] [1/1] Processing Row 3: Shubham Vinayak Jadhav (svj190906@gmail.com)
+2026-10-27 00:30:05,143 [INFO] Filling Page 1: Email -> svj190906@gmail.com
+2026-10-27 00:30:07,064 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:30:10,025 [INFO] Filling Page 3: Name=Shubham Vinayak Jadhav, Gender=Male, Category=Student
+2026-10-27 00:30:13,829 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:30:16,053 [INFO] Filling Page 5: Skills Email=svj190906@gmail.com
+2026-10-27 00:30:17,481 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/93a623cc-4515-4d98-bd1d-ed04b7f77ae0
+2026-10-27 00:30:18,831 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:30:20,435 [INFO] SUCCESS: Form submitted for Shubham Vinayak Jadhav!
+2026-10-27 00:30:21,230 [INFO] Excel updated: row 3 (Column B = True).
+2026-10-27 00:30:23,837 [INFO] Completed run: 1 succeeded, 0 failed.
+2026-10-27 00:30:33,005 [INFO] Loaded 243 pending participant(s) from Excel.
+2026-10-27 00:30:33,006 [INFO] [1/30] Processing Row 4: Ishant Prashant Shinde (ishantshinde1238@gmail.com)
+2026-10-27 00:30:35,517 [INFO] Filling Page 1: Email -> ishantshinde1238@gmail.com
+2026-10-27 00:31:05,534 [ERROR] Error submitting row 4 (Ishant Prashant Shinde): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:31:05,844 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_4.png
+2026-10-27 00:31:05,844 [INFO] [2/30] Processing Row 5: Yogansh magare (yoganshmagare@gmail.com)
+2026-10-27 00:31:15,867 [INFO] Filling Page 1: Email -> yoganshmagare@gmail.com
+2026-10-27 00:31:45,881 [ERROR] Error submitting row 5 (Yogansh magare): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:31:46,093 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_5.png
+2026-10-27 00:31:46,093 [INFO] [3/30] Processing Row 6: Sohan Parate (rust.spielberg@gmail.com)
+2026-10-27 00:31:49,682 [INFO] Filling Page 1: Email -> rust.spielberg@gmail.com
+2026-10-27 00:32:19,703 [ERROR] Error submitting row 6 (Sohan Parate): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:32:19,985 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_6.png
+2026-10-27 00:32:19,987 [INFO] [4/30] Processing Row 7: Ashish Ashok Kadam (kadamashish940@gmail.com)
+2026-10-27 00:32:25,096 [INFO] Filling Page 1: Email -> kadamashish940@gmail.com
+2026-10-27 00:32:55,109 [ERROR] Error submitting row 7 (Ashish Ashok Kadam): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:32:55,318 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_7.png
+2026-10-27 00:32:55,318 [INFO] [5/30] Processing Row 8: Sohan Parate (studywithsohan9149@gmail.com)
+2026-10-27 00:32:58,178 [INFO] Filling Page 1: Email -> studywithsohan9149@gmail.com
+2026-10-27 00:33:28,191 [ERROR] Error submitting row 8 (Sohan Parate): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:33:28,318 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_8.png
+2026-10-27 00:33:28,319 [INFO] [6/30] Processing Row 9: Vaishnavi Kunte (kuntevaishnavi4@gmail.com)
+2026-10-27 00:33:33,284 [INFO] Filling Page 1: Email -> kuntevaishnavi4@gmail.com
+2026-10-27 00:34:03,294 [ERROR] Error submitting row 9 (Vaishnavi Kunte): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:34:03,504 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_9.png
+2026-10-27 00:34:03,504 [INFO] [7/30] Processing Row 10: Deepali Ganachari (deepaliganachari95@gmail.com)
+2026-10-27 00:34:08,688 [INFO] Filling Page 1: Email -> deepaliganachari95@gmail.com
+2026-10-27 00:34:38,707 [ERROR] Error submitting row 10 (Deepali Ganachari): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:34:38,936 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_10.png
+2026-10-27 00:34:38,936 [INFO] [8/30] Processing Row 11: Mihir Khatavkar (mihirvkhatavkarstudy@gmail.com)
+2026-10-27 00:34:41,455 [INFO] Filling Page 1: Email -> mihirvkhatavkarstudy@gmail.com
+2026-10-27 00:35:11,479 [ERROR] Error submitting row 11 (Mihir Khatavkar): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:35:11,654 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_11.png
+2026-10-27 00:35:11,655 [INFO] [9/30] Processing Row 12: Adit naik (naikadit02@gmail.com)
+2026-10-27 00:35:17,307 [INFO] Filling Page 1: Email -> naikadit02@gmail.com
+2026-10-27 00:35:47,321 [ERROR] Error submitting row 12 (Adit naik): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:35:47,558 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_12.png
+2026-10-27 00:35:47,574 [INFO] [10/30] Processing Row 13: Zaid Javed Khan (beingzaidkhan.12@gmail.com)
+2026-10-27 00:35:52,755 [INFO] Filling Page 1: Email -> beingzaidkhan.12@gmail.com
+2026-10-27 00:36:22,769 [ERROR] Error submitting row 13 (Zaid Javed Khan): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:36:22,922 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_13.png
+2026-10-27 00:36:22,923 [INFO] [11/30] Processing Row 14: Sharwari Supe (sharwarisupe@gmail.com)
+2026-10-27 00:36:27,844 [INFO] Filling Page 1: Email -> sharwarisupe@gmail.com
+2026-10-27 00:36:57,859 [ERROR] Error submitting row 14 (Sharwari Supe): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:36:58,082 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_14.png
+2026-10-27 00:36:58,084 [INFO] [12/30] Processing Row 15: Watsalya Pawara (watsalyapawara@gmail.com)
+2026-10-27 00:37:02,203 [INFO] Filling Page 1: Email -> watsalyapawara@gmail.com
+2026-10-27 00:37:32,252 [ERROR] Error submitting row 15 (Watsalya Pawara): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:37:32,466 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_15.png
+2026-10-27 00:37:32,468 [INFO] [13/30] Processing Row 16: Sai Gajmal (saisanikasandip@gmail.com)
+2026-10-27 00:37:38,070 [INFO] Filling Page 1: Email -> saisanikasandip@gmail.com
+2026-10-27 00:38:08,083 [ERROR] Error submitting row 16 (Sai Gajmal): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:38:08,381 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_16.png
+2026-10-27 00:38:08,382 [INFO] [14/30] Processing Row 17: Ranveer Patil (ranveerajitpatil@gmail.com)
+2026-10-27 00:38:11,742 [INFO] Filling Page 1: Email -> ranveerajitpatil@gmail.com
+2026-10-27 00:38:41,757 [ERROR] Error submitting row 17 (Ranveer Patil): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:38:42,050 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_17.png
+2026-10-27 00:38:42,051 [INFO] [15/30] Processing Row 18: Divesh Deepak Jadhav (diveshjadhav06@gmail.com)
+2026-10-27 00:38:45,205 [INFO] Filling Page 1: Email -> diveshjadhav06@gmail.com
+2026-10-27 00:39:15,220 [ERROR] Error submitting row 18 (Divesh Deepak Jadhav): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:39:15,449 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_18.png
+2026-10-27 00:39:15,451 [INFO] [16/30] Processing Row 19: Vaishnavi Chandrakant Shetty (vaishushetty69@gmail.com)
+2026-10-27 00:39:18,063 [INFO] Filling Page 1: Email -> vaishushetty69@gmail.com
+2026-10-27 00:39:48,087 [ERROR] Error submitting row 19 (Vaishnavi Chandrakant Shetty): Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Next")
+
+2026-10-27 00:39:48,293 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_19.png
+2026-10-27 00:39:48,295 [INFO] [17/30] Processing Row 20: Eashan Tamboli (eashantamboli1@gmail.com)
+2026-10-27 00:39:52,275 [INFO] Filling Page 1: Email -> eashantamboli1@gmail.com
+2026-10-27 00:40:22,628 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2026-10-27 00:41:34,269 [INFO] Loaded 243 pending participant(s) from Excel.
+2026-10-27 00:41:34,270 [INFO] [1/1] Processing Row 4: Ishant Prashant Shinde (ishantshinde1238@gmail.com)
+2026-10-27 00:41:41,280 [INFO] Filling Page 1: Email -> ishantshinde1238@gmail.com
+2026-10-27 00:41:42,449 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:41:44,830 [INFO] Filling Page 3: Name=Ishant Prashant Shinde, Gender=Male, Category=Student
+2026-10-27 00:42:00,795 [ERROR] Error submitting row 4 (Ishant Prashant Shinde): Locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[type=\"text\"]").first
+
+2026-10-27 00:42:01,329 [INFO] Completed run: 0 succeeded, 1 failed.
+2026-10-27 00:42:17,452 [INFO] Loaded 243 pending participant(s) from Excel.
+2026-10-27 00:42:17,452 [INFO] [1/30] Processing Row 4: Ishant Prashant Shinde (ishantshinde1238@gmail.com)
+2026-10-27 00:42:20,727 [INFO] Filling Page 1: Email -> ishantshinde1238@gmail.com
+2026-10-27 00:42:22,248 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:42:23,386 [INFO] Filling Page 3: Name=Ishant Prashant Shinde, Gender=Male, Category=Student
+2026-10-27 00:42:26,787 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:42:29,400 [INFO] Filling Page 5: Skills Email=ishantshinde1238@gmail.com
+2026-10-27 00:42:30,598 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/87abb621-3f28-4cc4-af4b-c68da9b702fc
+2026-10-27 00:42:31,755 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:42:33,107 [INFO] SUCCESS: Form submitted for Ishant Prashant Shinde!
+2026-10-27 00:42:33,434 [INFO] Excel updated: row 4 (Column B = True).
+2026-10-27 00:42:35,435 [INFO] [2/30] Processing Row 5: Yogansh magare (yoganshmagare@gmail.com)
+2026-10-27 00:42:37,126 [INFO] Filling Page 1: Email -> yoganshmagare@gmail.com
+2026-10-27 00:42:38,503 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:42:39,722 [INFO] Filling Page 3: Name=Yogansh magare, Gender=Male, Category=Student
+2026-10-27 00:42:43,324 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:42:45,922 [INFO] Filling Page 5: Skills Email=Yoganshmagare@gmail.com
+2026-10-27 00:42:47,174 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/084ad338-ae64-484b-a51d-fa3caea9c8e8
+2026-10-27 00:42:48,507 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:42:50,409 [INFO] SUCCESS: Form submitted for Yogansh magare!
+2026-10-27 00:42:50,870 [INFO] Excel updated: row 5 (Column B = True).
+2026-10-27 00:42:52,871 [INFO] [3/30] Processing Row 6: Sohan Parate (rust.spielberg@gmail.com)
+2026-10-27 00:42:53,648 [ERROR] Error submitting row 6 (Sohan Parate): Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://docs.google.com/forms/d/e/1FAIpQLSeVBiL2RroHsYS5JhPP5Fumz-Paf80ssGwDXgejPRZsP64DqA/viewform", waiting until "networkidle"
+
+2026-10-27 00:42:53,655 [INFO] [4/30] Processing Row 7: Ashish Ashok Kadam (kadamashish940@gmail.com)
+2026-10-27 00:42:53,662 [ERROR] Error submitting row 7 (Ashish Ashok Kadam): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,667 [INFO] [5/30] Processing Row 8: Sohan Parate (studywithsohan9149@gmail.com)
+2026-10-27 00:42:53,675 [ERROR] Error submitting row 8 (Sohan Parate): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,681 [INFO] [6/30] Processing Row 9: Vaishnavi Kunte (kuntevaishnavi4@gmail.com)
+2026-10-27 00:42:53,686 [ERROR] Error submitting row 9 (Vaishnavi Kunte): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,691 [INFO] [7/30] Processing Row 10: Deepali Ganachari (deepaliganachari95@gmail.com)
+2026-10-27 00:42:53,701 [ERROR] Error submitting row 10 (Deepali Ganachari): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,708 [INFO] [8/30] Processing Row 11: Mihir Khatavkar (mihirvkhatavkarstudy@gmail.com)
+2026-10-27 00:42:53,711 [ERROR] Error submitting row 11 (Mihir Khatavkar): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,716 [INFO] [9/30] Processing Row 12: Adit naik (naikadit02@gmail.com)
+2026-10-27 00:42:53,720 [ERROR] Error submitting row 12 (Adit naik): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,723 [INFO] [10/30] Processing Row 13: Zaid Javed Khan (beingzaidkhan.12@gmail.com)
+2026-10-27 00:42:53,727 [ERROR] Error submitting row 13 (Zaid Javed Khan): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,731 [INFO] [11/30] Processing Row 14: Sharwari Supe (sharwarisupe@gmail.com)
+2026-10-27 00:42:53,735 [ERROR] Error submitting row 14 (Sharwari Supe): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,739 [INFO] [12/30] Processing Row 15: Watsalya Pawara (watsalyapawara@gmail.com)
+2026-10-27 00:42:53,742 [ERROR] Error submitting row 15 (Watsalya Pawara): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,745 [INFO] [13/30] Processing Row 16: Sai Gajmal (saisanikasandip@gmail.com)
+2026-10-27 00:42:53,753 [ERROR] Error submitting row 16 (Sai Gajmal): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,756 [INFO] [14/30] Processing Row 17: Ranveer Patil (ranveerajitpatil@gmail.com)
+2026-10-27 00:42:53,762 [ERROR] Error submitting row 17 (Ranveer Patil): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,768 [INFO] [15/30] Processing Row 18: Divesh Deepak Jadhav (diveshjadhav06@gmail.com)
+2026-10-27 00:42:53,771 [ERROR] Error submitting row 18 (Divesh Deepak Jadhav): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,776 [INFO] [16/30] Processing Row 19: Vaishnavi Chandrakant Shetty (vaishushetty69@gmail.com)
+2026-10-27 00:42:53,781 [ERROR] Error submitting row 19 (Vaishnavi Chandrakant Shetty): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,828 [INFO] [17/30] Processing Row 20: Eashan Tamboli (eashantamboli1@gmail.com)
+2026-10-27 00:42:53,842 [ERROR] Error submitting row 20 (Eashan Tamboli): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,847 [INFO] [18/30] Processing Row 21: Jainam Nirmal Jain (jainamj0611@gmail.com)
+2026-10-27 00:42:53,850 [ERROR] Error submitting row 21 (Jainam Nirmal Jain): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,857 [INFO] [19/30] Processing Row 22: Maya sheshrao chavan (mayachavan813@gmail.com)
+2026-10-27 00:42:53,861 [ERROR] Error submitting row 22 (Maya sheshrao chavan): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,868 [INFO] [20/30] Processing Row 23: Kashvi Ashish Rajput (kashvi.aashish.rajput@gmail.com)
+2026-10-27 00:42:53,872 [ERROR] Error submitting row 23 (Kashvi Ashish Rajput): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,895 [INFO] [21/30] Processing Row 24: Rohit Sutar (rohit1823sutar@gmail.com)
+2026-10-27 00:42:53,899 [ERROR] Error submitting row 24 (Rohit Sutar): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,903 [INFO] [22/30] Processing Row 25: Siddhant Bansod (siddhantbansod07@gmail.com)
+2026-10-27 00:42:53,905 [ERROR] Error submitting row 25 (Siddhant Bansod): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,907 [INFO] [23/30] Processing Row 26: Aadit kunal kamble (aaditkamble@gmail.com)
+2026-10-27 00:42:53,910 [ERROR] Error submitting row 26 (Aadit kunal kamble): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,912 [INFO] [24/30] Processing Row 27: Tanmay Madhavi (tanmaymadhavi004@gmail.com)
+2026-10-27 00:42:53,916 [ERROR] Error submitting row 27 (Tanmay Madhavi): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,919 [INFO] [25/30] Processing Row 28: Darshan Palkar (darshanpalkar18@gmail.com)
+2026-10-27 00:42:53,921 [ERROR] Error submitting row 28 (Darshan Palkar): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,924 [INFO] [26/30] Processing Row 29: Rishit Patil (rishitpatil.001@gmail.com)
+2026-10-27 00:42:53,928 [ERROR] Error submitting row 29 (Rishit Patil): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,931 [INFO] [27/30] Processing Row 30: Aditi Ashok Mahadik (aditimahadik171108@gmail.com)
+2026-10-27 00:42:53,933 [ERROR] Error submitting row 30 (Aditi Ashok Mahadik): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,935 [INFO] [28/30] Processing Row 31: Kalpesh Kailas Jadhav (kalpeshrajput1706@gmail.com)
+2026-10-27 00:42:53,938 [ERROR] Error submitting row 31 (Kalpesh Kailas Jadhav): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,941 [INFO] [29/30] Processing Row 32: Samarth Mayuresh Kadam (kadamsamarth07@gmail.com)
+2026-10-27 00:42:53,944 [ERROR] Error submitting row 32 (Samarth Mayuresh Kadam): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,946 [INFO] [30/30] Processing Row 33: Tanieshka M (11.tanieshka@gmail.com)
+2026-10-27 00:42:53,948 [ERROR] Error submitting row 33 (Tanieshka M): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:42:53,952 [INFO] Completed run: 2 succeeded, 28 failed.
+2026-10-27 00:45:19,475 [INFO] Loaded 246 pending participant(s) from Excel.
+2026-10-27 00:45:19,476 [INFO] [1/1] Processing Row 2: Vighnesh Kamlesh Sawant (vighneshsawant031207@gmail.com)
+2026-10-27 00:45:23,512 [INFO] Filling Page 1: Email -> vighneshsawant031207@gmail.com
+2026-10-27 00:45:24,732 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:45:26,170 [INFO] Filling Page 3: Name=Vighnesh Kamlesh Sawant, Gender=Male, Category=Student
+2026-10-27 00:45:30,141 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:45:32,842 [INFO] Filling Page 5: Skills Email=codylogic59@gmail.com
+2026-10-27 00:45:34,105 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/7e06dafb-7bf1-4417-8ca4-aade2c814c7e
+2026-10-27 00:45:35,382 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:45:37,072 [INFO] SUCCESS: Form submitted for Vighnesh Kamlesh Sawant!
+2026-10-27 00:45:37,938 [INFO] Excel updated: row 2 (Column B = True).
+2026-10-27 00:45:40,853 [INFO] Completed run: 1 succeeded, 0 failed.
+2026-10-27 00:45:47,601 [INFO] Loaded 245 pending participant(s) from Excel.
+2026-10-27 00:45:47,601 [INFO] [1/20] Processing Row 3: Shubham Vinayak Jadhav (svj190906@gmail.com)
+2026-10-27 00:45:52,607 [INFO] Filling Page 1: Email -> svj190906@gmail.com
+2026-10-27 00:45:53,806 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:45:56,834 [INFO] Filling Page 3: Name=Shubham Vinayak Jadhav, Gender=Male, Category=Student
+2026-10-27 00:46:02,141 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:46:04,885 [INFO] Filling Page 5: Skills Email=svj190906@gmail.com
+2026-10-27 00:46:06,106 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/93a623cc-4515-4d98-bd1d-ed04b7f77ae0
+2026-10-27 00:46:07,556 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:46:09,331 [INFO] SUCCESS: Form submitted for Shubham Vinayak Jadhav!
+2026-10-27 00:46:10,440 [INFO] Excel updated: row 3 (Column B = True).
+2026-10-27 00:46:12,441 [INFO] [2/20] Processing Row 4: Ishant Prashant Shinde (ishantshinde1238@gmail.com)
+2026-10-27 00:46:14,363 [INFO] Filling Page 1: Email -> ishantshinde1238@gmail.com
+2026-10-27 00:46:15,543 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:46:16,878 [INFO] Filling Page 3: Name=Ishant Prashant Shinde, Gender=Male, Category=Student
+2026-10-27 00:46:20,647 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:46:22,687 [INFO] Filling Page 5: Skills Email=ishantshinde1238@gmail.com
+2026-10-27 00:46:23,973 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/87abb621-3f28-4cc4-af4b-c68da9b702fc
+2026-10-27 00:46:25,229 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:46:26,811 [INFO] SUCCESS: Form submitted for Ishant Prashant Shinde!
+2026-10-27 00:46:28,317 [INFO] Excel updated: row 4 (Column B = True).
+2026-10-27 00:46:30,319 [INFO] [3/20] Processing Row 5: Yogansh magare (yoganshmagare@gmail.com)
+2026-10-27 00:46:32,303 [INFO] Filling Page 1: Email -> yoganshmagare@gmail.com
+2026-10-27 00:46:33,437 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:46:34,835 [INFO] Filling Page 3: Name=Yogansh magare, Gender=Male, Category=Student
+2026-10-27 00:46:38,525 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:46:41,410 [INFO] Filling Page 5: Skills Email=Yoganshmagare@gmail.com
+2026-10-27 00:46:42,720 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/084ad338-ae64-484b-a51d-fa3caea9c8e8
+2026-10-27 00:46:43,962 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:46:45,633 [INFO] SUCCESS: Form submitted for Yogansh magare!
+2026-10-27 00:46:47,093 [INFO] Excel updated: row 5 (Column B = True).
+2026-10-27 00:46:49,094 [INFO] [4/20] Processing Row 6: Sohan Parate (rust.spielberg@gmail.com)
+2026-10-27 00:46:50,961 [INFO] Filling Page 1: Email -> rust.spielberg@gmail.com
+2026-10-27 00:46:52,144 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:46:53,580 [INFO] Filling Page 3: Name=Sohan Parate, Gender=Male, Category=Student
+2026-10-27 00:46:57,161 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:46:59,780 [INFO] Filling Page 5: Skills Email=rust.spielberg@gmail.com
+2026-10-27 00:47:01,105 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/a05943fe-7645-413e-99c5-be2c803ac0fc
+2026-10-27 00:47:02,327 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:47:03,940 [INFO] SUCCESS: Form submitted for Sohan Parate!
+2026-10-27 00:47:05,290 [INFO] Excel updated: row 6 (Column B = True).
+2026-10-27 00:47:07,292 [INFO] [5/20] Processing Row 7: Ashish Ashok Kadam (kadamashish940@gmail.com)
+2026-10-27 00:47:09,359 [INFO] Filling Page 1: Email -> kadamashish940@gmail.com
+2026-10-27 00:47:10,531 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:47:12,040 [INFO] Filling Page 3: Name=Ashish Ashok Kadam, Gender=Male, Category=Student
+2026-10-27 00:47:15,772 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:47:18,399 [INFO] Filling Page 5: Skills Email=akdoomstar@gmail.com
+2026-10-27 00:47:19,658 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/3f3e266d-7c10-41b0-880d-0c4d7e58bae4
+2026-10-27 00:47:20,921 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:47:22,632 [INFO] SUCCESS: Form submitted for Ashish Ashok Kadam!
+2026-10-27 00:47:23,968 [INFO] Excel updated: row 7 (Column B = True).
+2026-10-27 00:47:25,977 [INFO] [6/20] Processing Row 8: Sohan Parate (studywithsohan9149@gmail.com)
+2026-10-27 00:47:28,184 [INFO] Filling Page 1: Email -> studywithsohan9149@gmail.com
+2026-10-27 00:47:29,346 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:47:30,853 [INFO] Filling Page 3: Name=Sohan Parate, Gender=Male, Category=Student
+2026-10-27 00:47:34,550 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:47:37,180 [INFO] Filling Page 5: Skills Email=studywithsohan9149@gmail.com
+2026-10-27 00:47:38,460 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/1e943b24-a7bc-46f6-87ab-66e0687a7bf6
+2026-10-27 00:47:39,706 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:47:41,370 [INFO] SUCCESS: Form submitted for Sohan Parate!
+2026-10-27 00:47:42,904 [INFO] Excel updated: row 8 (Column B = True).
+2026-10-27 00:47:44,906 [INFO] [7/20] Processing Row 9: Vaishnavi Kunte (kuntevaishnavi4@gmail.com)
+2026-10-27 00:47:47,787 [INFO] Filling Page 1: Email -> kuntevaishnavi4@gmail.com
+2026-10-27 00:47:49,126 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:47:51,067 [INFO] Filling Page 3: Name=Vaishnavi Kunte, Gender=Female, Category=Student
+2026-10-27 00:47:55,883 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:47:59,245 [INFO] Filling Page 5: Skills Email=kuntevaishnavi4@gmail.com
+2026-10-27 00:48:00,996 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/b0320870-ea98-4930-a8a3-48ee1c66461e
+2026-10-27 00:48:03,217 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:48:06,090 [INFO] SUCCESS: Form submitted for Vaishnavi Kunte!
+2026-10-27 00:48:07,173 [INFO] Excel updated: row 9 (Column B = True).
+2026-10-27 00:48:09,175 [INFO] [8/20] Processing Row 10: Deepali Ganachari (deepaliganachari95@gmail.com)
+2026-10-27 00:48:12,052 [INFO] Filling Page 1: Email -> deepaliganachari95@gmail.com
+2026-10-27 00:48:13,274 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:48:16,455 [INFO] Filling Page 3: Name=Deepali Ganachari, Gender=Female, Category=Student
+2026-10-27 00:48:20,568 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:48:23,814 [INFO] Filling Page 5: Skills Email=deepaliganachari95@gmail.com
+2026-10-27 00:48:25,293 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/3efd5b87-8bf4-486a-ab98-492873ea9644
+2026-10-27 00:48:27,213 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:48:30,143 [INFO] SUCCESS: Form submitted for Deepali Ganachari!
+2026-10-27 00:48:31,707 [INFO] Excel updated: row 10 (Column B = True).
+2026-10-27 00:48:33,709 [INFO] [9/20] Processing Row 11: Mihir Khatavkar (mihirvkhatavkarstudy@gmail.com)
+2026-10-27 00:48:36,325 [INFO] Filling Page 1: Email -> mihirvkhatavkarstudy@gmail.com
+2026-10-27 00:48:37,649 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:48:39,682 [INFO] Filling Page 3: Name=Mihir Khatavkar, Gender=Male, Category=Student
+2026-10-27 00:48:43,358 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:48:46,583 [INFO] Filling Page 5: Skills Email=mihirvkhatavkar678@gmail.com
+2026-10-27 00:48:48,015 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/36a7cd92-6edc-4e42-86b6-f353b0d80813
+2026-10-27 00:49:18,086 [ERROR] Error submitting row 11 (Mihir Khatavkar): Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"text\"]").first
+    - waiting for "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeVBiL2RroHsYS5JhPP5Fumz-Paf80ssGwDXgejPRZsP64DqA/formResponse" navigation to finish...
+    - navigated to "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeVBiL2RroHsYS5JhPP5Fumz-Paf80ssGwDXgejPRZsP64DqA/formResponse"
+
+2026-10-27 00:49:18,397 [INFO] Saved screenshot: D:\My projects\automation\logs\screenshots\error_row_11.png
+2026-10-27 00:49:18,398 [INFO] [10/20] Processing Row 12: Adit naik (naikadit02@gmail.com)
+2026-10-27 00:49:21,104 [INFO] Filling Page 1: Email -> naikadit02@gmail.com
+2026-10-27 00:49:22,293 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:49:25,403 [INFO] Filling Page 3: Name=Adit naik, Gender=Male, Category=Student
+2026-10-27 00:49:29,357 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:49:33,030 [INFO] Filling Page 5: Skills Email=naikadit02@gmail.com
+2026-10-27 00:49:34,352 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/2fa1e245-725c-475b-881c-04eb6f40ffb8
+2026-10-27 00:49:36,369 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:49:39,225 [INFO] SUCCESS: Form submitted for Adit naik!
+2026-10-27 00:49:40,276 [INFO] Excel updated: row 12 (Column B = True).
+2026-10-27 00:49:42,277 [INFO] [11/20] Processing Row 13: Zaid Javed Khan (beingzaidkhan.12@gmail.com)
+2026-10-27 00:49:45,070 [INFO] Filling Page 1: Email -> beingzaidkhan.12@gmail.com
+2026-10-27 00:49:46,238 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:49:48,683 [INFO] Filling Page 3: Name=Zaid Javed Khan, Gender=Male, Category=Student
+2026-10-27 00:49:53,415 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:49:56,762 [INFO] Filling Page 5: Skills Email=beingzaidkhan.12@gmail.com
+2026-10-27 00:49:58,275 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/4cd056f9-59f7-406b-8c19-a77920ebd633
+2026-10-27 00:50:00,146 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:50:03,180 [INFO] SUCCESS: Form submitted for Zaid Javed Khan!
+2026-10-27 00:50:04,418 [INFO] Excel updated: row 13 (Column B = True).
+2026-10-27 00:50:06,419 [INFO] [12/20] Processing Row 14: Sharwari Supe (sharwarisupe@gmail.com)
+2026-10-27 00:50:09,065 [INFO] Filling Page 1: Email -> sharwarisupe@gmail.com
+2026-10-27 00:50:10,337 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:50:12,307 [INFO] Filling Page 3: Name=Sharwari Supe, Gender=Female, Category=Student
+2026-10-27 00:50:16,435 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:50:19,563 [INFO] Filling Page 5: Skills Email=sharwarisupe@gmail.com
+2026-10-27 00:50:20,981 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/30694fc0-84f4-48f3-871f-24786935d142
+2026-10-27 00:50:22,761 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:50:25,560 [INFO] SUCCESS: Form submitted for Sharwari Supe!
+2026-10-27 00:50:26,735 [INFO] Excel updated: row 14 (Column B = True).
+2026-10-27 00:50:28,736 [INFO] [13/20] Processing Row 15: Watsalya Pawara (watsalyapawara@gmail.com)
+2026-10-27 00:50:31,093 [INFO] Filling Page 1: Email -> watsalyapawara@gmail.com
+2026-10-27 00:50:32,280 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:50:34,202 [INFO] Filling Page 3: Name=Watsalya Pawara, Gender=Female, Category=Student
+2026-10-27 00:50:38,536 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:50:41,470 [INFO] Filling Page 5: Skills Email=watsalyapawara@gmail.com
+2026-10-27 00:50:42,741 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/77a3a0e1-995a-434e-9db8-9eed8f5314ea
+2026-10-27 00:50:44,443 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:50:46,965 [INFO] SUCCESS: Form submitted for Watsalya Pawara!
+2026-10-27 00:50:47,642 [INFO] Excel updated: row 15 (Column B = True).
+2026-10-27 00:50:49,644 [INFO] [14/20] Processing Row 16: Sai Gajmal (saisanikasandip@gmail.com)
+2026-10-27 00:50:51,942 [INFO] Filling Page 1: Email -> saisanikasandip@gmail.com
+2026-10-27 00:50:53,196 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:50:55,252 [INFO] Filling Page 3: Name=Sai Gajmal, Gender=Male, Category=Student
+2026-10-27 00:50:59,413 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:51:02,430 [INFO] Filling Page 5: Skills Email=saisanikasandip@gmail.com
+2026-10-27 00:51:05,569 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/c0139ecc-2154-4be9-a266-c1ef3942c77a
+2026-10-27 00:51:06,871 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:51:09,521 [INFO] SUCCESS: Form submitted for Sai Gajmal!
+2026-10-27 00:51:10,675 [INFO] Excel updated: row 16 (Column B = True).
+2026-10-27 00:51:12,676 [INFO] [15/20] Processing Row 17: Ranveer Patil (ranveerajitpatil@gmail.com)
+2026-10-27 00:51:15,038 [INFO] Filling Page 1: Email -> ranveerajitpatil@gmail.com
+2026-10-27 00:51:16,210 [INFO] Filling Page 2: Terms and conditions
+2026-10-27 00:51:18,197 [INFO] Filling Page 3: Name=Ranveer Patil, Gender=Male, Category=Student
+2026-10-27 00:51:22,271 [INFO] Filling Page 4: Organiser=GDG on Campus Organizer, Code=GDGC-VITMU
+2026-10-27 00:51:25,336 [INFO] Filling Page 5: Skills Email=ranveerajitpatil@gmail.com
+2026-10-27 00:51:26,624 [INFO] Filling Page 6: Profile URL=https://www.skills.google/public_profiles/b58ddce3-20fe-44e2-b50a-c3b45c5a435a
+2026-10-27 00:51:28,465 [INFO] Filling Page 7: Acknowledge & Submit
+2026-10-27 00:51:28,953 [ERROR] Error submitting row 17 (Ranveer Patil): Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_text("I Acknowledge")
+
+2026-10-27 00:51:28,956 [INFO] [16/20] Processing Row 18: Divesh Deepak Jadhav (diveshjadhav06@gmail.com)
+2026-10-27 00:51:28,958 [ERROR] Error submitting row 18 (Divesh Deepak Jadhav): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:51:28,961 [INFO] [17/20] Processing Row 19: Vaishnavi Chandrakant Shetty (vaishushetty69@gmail.com)
+2026-10-27 00:51:28,965 [ERROR] Error submitting row 19 (Vaishnavi Chandrakant Shetty): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:51:28,982 [INFO] [18/20] Processing Row 20: Eashan Tamboli (eashantamboli1@gmail.com)
+2026-10-27 00:51:29,124 [ERROR] Error submitting row 20 (Eashan Tamboli): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:51:29,166 [INFO] [19/20] Processing Row 21: Jainam Nirmal Jain (jainamj0611@gmail.com)
+2026-10-27 00:51:29,246 [ERROR] Error submitting row 21 (Jainam Nirmal Jain): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:51:29,339 [INFO] [20/20] Processing Row 22: Maya sheshrao chavan (mayachavan813@gmail.com)
+2026-10-27 00:51:29,385 [ERROR] Error submitting row 22 (Maya sheshrao chavan): Page.goto: Target page, context or browser has been closed
+2026-10-27 00:51:29,406 [INFO] Completed run: 13 succeeded, 7 failed.
